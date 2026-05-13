@@ -15,8 +15,8 @@ public class Estudo18 {
         }
 
         int maior = vect[0];
-        for (int i = 0; i < n; i++) {
-            if (vect[i] > 0) {
+        for (int i = 1; i < n; i++) {
+            if (vect[i] > maior) {
                 maior = vect[i];
             }
         }
